@@ -1,14 +1,14 @@
-import pandas as pd
-import matplotlib.pyplot as plt
+import pandas as varpandas
+import matplotlib.pyplot as varplot
 
-sxt = pd.read_csv("manchas.csv")
-plt.style.use('fast')
+sxt = varpandas.read_csv("manchas.csv")
+varplot.style.use('fast')
 
 x = sxt.Ano
 y = sxt.manchas
 
-plt.boxplot(x, patch_artist = True)
-plt.title('Taxa de manchas solares em Wolfer')
+varplot.boxplot(x, patch_artist = True)
+varplot.title('Taxa de manchas solares em Wolfer')
 
 #plt.show()#
-plt.savefig("boxplot.jpg")
+varplot.savefig("boxplot.jpg")
