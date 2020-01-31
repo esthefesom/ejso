@@ -1,17 +1,17 @@
-import pandas as pd
-import matplotlib.pyplot as plt
+import pandas as varpandas
+import matplotlib.pyplot as varplot
 
-sxt = pd.read_csv("manchas.csv")
+sxt = varpandas.read_csv("manchas.csv")
 sxt = sxt.head(30)
-plt.style.use('Solarize_Light2')
+varplot.style.use('Solarize_Light2')
 
 x = sxt.Ano
 y = sxt.manchas
 
-plt.plot(x,y, marker = '_', color = 'c')
-plt.title('Taxa de manchas solares em Wolfer')
-plt.xlabel('ano')
-plt.ylabel('mancha')
+varplot.plot(x,y, marker = '_', color = 'c')
+varplot.title('Taxa de manchas solares em Wolfer')
+varplot.xlabel('ano')
+varplot.ylabel('mancha')
 
 #plt.show()#
-plt.savefig("trinta_primeiros.jpg")
+varplot.savefig("trinta_primeiros.jpg")
