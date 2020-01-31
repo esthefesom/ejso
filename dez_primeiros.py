@@ -15,4 +15,4 @@ plt.xlabel('ano')
 plt.ylabel('mancha')
 plt.grid(True, linewidth=0.3)
 #plt.show()#
-plt.savefig("10primeiros.jpg")
+plt.savefig("dez_primeiros.jpg")
