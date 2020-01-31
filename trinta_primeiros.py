@@ -14,4 +14,4 @@ plt.xlabel('ano')
 plt.ylabel('mancha')
 
 #plt.show()#
-plt.savefig("30primeiros.jpg")
+plt.savefig("trinta_primeiros.jpg")
