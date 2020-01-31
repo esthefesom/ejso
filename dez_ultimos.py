@@ -8,7 +8,6 @@ varplot.style.use('Solarize_Light2')
 x = sxt.Ano
 y = sxt.manchas
 
-
 varplot.plot(x,y, marker = '_')
 varplot.title('Taxa de manchas solares em Wolfer')
 varplot.xlabel('ano')
