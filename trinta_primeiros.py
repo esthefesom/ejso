@@ -12,6 +12,5 @@ varplot.plot(x,y, marker = '_', color = 'c')
 varplot.title('Taxa de manchas solares em Wolfer')
 varplot.xlabel('ano')
 varplot.ylabel('mancha')
-
 #plt.show()#
 varplot.savefig("trinta_primeiros.jpg")
